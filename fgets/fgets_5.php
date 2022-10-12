@@ -9,7 +9,9 @@ $n = trim( fgets( STDIN ) );
 $a = "paiza";
 
 for ( $i = 0; $i < $n - 1; $i++ ) {
-  echo $a .=  " paiza"; 
+    $a .=  " paiza"; 
 }
+
+echo $a;
 
 ?>
